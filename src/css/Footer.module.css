@@ -1,0 +1,267 @@
+.segmentHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.segments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin: 0;
+
+        span {
+            color: red;
+            font-weight: 700;
+        }
+    }
+}
+
+.socialMediaProfielsContainer {
+    margin-top: 3%;
+    background: #ec3237;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+}
+
+.socialMediaProfiles {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolFreeNumberContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 13vw;
+    align-items: center;
+
+
+    .phone {
+        background: white;
+        border-radius: 50%;
+        width: 2vw;
+        height: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toolFreeNumber {
+        p {
+            color: white;
+
+            span {
+                font-weight: 700;
+            }
+
+            span:hover {
+                text-decoration: underline;
+            }
+        }
+
+    }
+}
+
+.faceBookProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16vw;
+
+    .facebookLogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 2vw;
+        height: 4vh;
+        background: white;
+
+        a {
+            color: #ec3237;
+
+        }
+    }
+
+    .facebookProfileLink {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.worldWideWeb {
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    justify-content: space-between;
+
+    .globe {
+        img {
+            width: 2vw;
+            height: 4vh;
+            border-radius: 50%;
+        }
+    }
+
+    .websiteLink {
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+
+
+    .segmentHeader {
+        padding: 5%;
+
+        h3 {
+            font-size: medium
+        }
+
+        ;
+    }
+
+    .segments {
+        padding: 5%;
+
+        p {
+            font-size: small;
+            margin-bottom: 5%;
+
+            span {
+                color: red;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .socialMediaProfielsContainer {
+
+        height: auto;
+    }
+
+    .socialMediaProfiles {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .toolFreeNumberContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        align-items: center;
+
+
+        .phone {
+            background: white;
+            border-radius: 50%;
+            width: 7vw;
+            height: 4vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .toolFreeNumber {
+            p {
+                color: white;
+                font-size: small;
+
+                span {
+                    font-weight: 700;
+                    font-size: small;
+                }
+
+                span:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+    }
+
+    .faceBookProfile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+
+        .facebookLogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 7vw;
+            height: 4vh;
+            background: white;
+
+            a {
+                color: #ec3237;
+
+            }
+        }
+
+        .facebookProfileLink {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: small;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .worldWideWeb {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        justify-content: space-between;
+
+        .globe {
+            img {
+                width: 7vw;
+                height: 4vh;
+                border-radius: 50%;
+            }
+        }
+
+        .websiteLink {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: small;
+            }
+
+            a:hover {
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+}

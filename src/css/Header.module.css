@@ -1,0 +1,22 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 254, 248);
+}
+
+.innerContainer {
+  img {
+    width: 20vw;
+    height: 15vh;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .innerContainer {
+    img {
+      width: 70vw;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.installationIfno {
+  margin-left: 3%;
+}
+
+.productImg {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 77vw;
+  }
+}
+
+.productNames {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontalRule {
+  display: flex;
+  justify-content: center;
+
+  div {
+    width: 95vw;
+    height: 0.4vh;
+    background: rgb(215, 143, 112);
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .productsContainer {
+    padding: 5%;
+  }
+
+  .installationIfno {
+    margin-left: 0;
+    font-size: small;
+
+  }
+
+  .productImg {
+
+    img {
+      width: 77vw;
+      height: 15vh;
+    }
+  }
+
+  .productNames {
+    font-size: small;
+
+  }
+}
